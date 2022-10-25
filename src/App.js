@@ -4,6 +4,8 @@ import { createGlobalStyle, keyframes} from 'styled-components';
 import Home from "./components/Home";
 import Experience from "./components/Experience";
 import { Routes, Route } from 'react-router';
+import Header from "./components/Header";
+import Contact from "./components/Contact";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -12,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
     background: #151515;
     font-family: 'Montserrat', sans-serif;
     background-image: 
-    radial-gradient(at 0% 0%,rgb(255,255,255,0.1) 0,transparent 50%)
+    radial-gradient(at 0% 0%,rgb(255,255,255,0.3) 0,transparent 50%)
     /* radial-gradient(at 50% 50%,hsla(255,255,255, 0) 0,transparent 50%) */
     /* radial-gradient(at 100% 0%,hsla(339,49%,30%,0) 0,transparent 20%) */
     ;
@@ -50,11 +52,11 @@ function App() {
   return (
     <Container>
         <GlobalStyle />
-
+        <Header />
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/experience" element={<Experience />} />
-
+        <Route path="/contact" element={<Contact />} />
     </Routes>
         
     </Container>

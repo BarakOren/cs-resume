@@ -25,26 +25,27 @@ const Summary = styled.p`
 font-size: 18px;
 transition: 0.2s all;
 &:hover{
+    cursor: default;
     transform: scale(1.1);
 }
 `
 
 const ButtonContainer = styled.div`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    width: 50%;
+    width: 100%;
     margin-top: 70px;
 `
 
 const Home = () => {
     return (<>
             <TitleContainer>
-            <Name>Barak Oren.</Name>
+            <Name>Barak Oren</Name>
             <CS>Customer Service Representative</CS>
             </TitleContainer>
             <Summary>
-            Highly organized and diligent professional drawing upon ten years of experience in accounting and finance to contribute to smooth and productive operations. Collaborate cross-functionally across organizational levels to build consensus, track benchmark achievement, and troubleshoot emerging issues. 
+            Personable, patience and empathetic support representative with a keen eye for customer satisfaction, with over 3 years of experience assisting customers with big variety of different issues. Provided in-depth technical support to clients, Keeping an average of 85%-90% of customer satisfaction. Seeking to provide support to with the right team.  
             </Summary>
             <ButtonContainer>
             <Button name={"Experience"} goTo={"/experience"}/>
