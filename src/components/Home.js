@@ -35,7 +35,7 @@ const ButtonContainer = styled.div`
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    margin-top: 70px;
+    margin-top: 30px;
 `
 
 const Home = () => {

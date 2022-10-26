@@ -15,10 +15,20 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     background-image: 
     radial-gradient(at 0% 0%,rgb(255,255,255,0.3) 0,transparent 50%)
-    /* radial-gradient(at 50% 50%,hsla(255,255,255, 0) 0,transparent 50%) */
-    /* radial-gradient(at 100% 0%,hsla(339,49%,30%,0) 0,transparent 20%) */
     ;
-    min-height:100vh;
+  }
+
+  ::-webkit-scrollbar{
+    width: 12px;
+    height: 12px;
+    background-color: #131313;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(68, 68, 68);
+    border-radius: 6px ;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #8e8d8f;
   }
 `;
 
@@ -34,11 +44,10 @@ const fadeIn = keyframes`
 `;
 
 
-
 const Container = styled.div`
   padding: 50px 20px 20px 20px;
   width: 100%;
-  height: 90vh;
+  min-height: 80vh;
   animation: ${fadeIn} 2s ease-in;
   color: white;
   display: flex;
@@ -58,7 +67,6 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
     </Routes>
-        
     </Container>
   );
 }

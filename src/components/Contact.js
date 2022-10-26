@@ -86,6 +86,28 @@ const Copied = styled.p`
     `};
 `
 
+const MailMe = styled.button`
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background: #262626;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: .2s all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+
+
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0 0 20px rgb(255,255,255, 0.5);
+    }
+`
+
 const Contact = () => {
 
     const [clicked, setClicked] = useState(false);
@@ -101,6 +123,7 @@ const Contact = () => {
         <Container>
             <Name>Contact</Name>
             <ItemsContainer>
+            <MailMe onClick={() => {window.location = "barakoren5@gmail.com"}}>Mail Me</MailMe>
                 <ItemContainer>
                     <EmailIcon />
                     <Title
