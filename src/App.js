@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     background-image: 
     radial-gradient(at 0% 0%,rgb(255,255,255,0.3) 0,transparent 50%)
     ;
+    background-repeat: no-repeat;
   }
 
   ::-webkit-scrollbar{
