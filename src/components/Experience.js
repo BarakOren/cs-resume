@@ -87,7 +87,40 @@ const Experience = () => {
                 "Carefully explain correct ways and best practices of using different devices.",
                 "Communicating with Tier 2 technical specialists to reflect and consult about high level of technical issues in different apple devices."
             ]
-        }
+        },
+        {
+            company: "Held",
+            position: "Branch Manager",
+            dates: "(Sep 2018 - Jun 2019)",
+            description: "Managed a new branch of one of the best photography/printing stores in the country.",
+            items: [
+                "Managing and guiding a small team to provide the best customer service possible",
+                "Responsible for sales increases and profit growth of the new store using different sales and other techniques.",
+                "Working closely with the design and sales teams to keep the new branch profitable.",
+                "Using different printers and techologies on daily bases",
+                "Working closely with big clients to design their products and needs, using Adobe photoshop and different softwares."
+            ]
+        },
+        {
+            company: "The Button. (Mobileye)",
+            position: "Sales Position.",
+            dates: "(Mar 2016 - Aug 2017)",
+            description: "Cold phone sales of the subsidiary product of one of the biggest tech compinies in israel - mobileye, life saving car accident related product.",
+            items: [
+                "Around 20 cold calls to potential clients.",
+                "Using different scripts and techniques on daily bases.",
+            ]
+        },
+        {
+            company: "Printing shop owner",
+            position: "Taking over the family printing/gift shop.",
+            dates: "(Mar 2015 - Aug 2016)",
+            description: "Developed and managed my famliy printing shop",
+            items: [
+                "Working closely with customer and designed custom printed gifts to provide the best customer satisfaction.",
+                "Working with different suppliers on regular bases.",
+            ]
+        },
     ]
 
     return( 
