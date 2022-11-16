@@ -115,7 +115,7 @@ const Experience = () => {
             company: "Printing shop owner",
             position: "Taking over the family printing/gift shop.",
             dates: "(Mar 2015 - Aug 2016)",
-            description: "Developed and managed my famliy printing shop",
+            description: "Developed and managed my famliy's printing shop",
             items: [
                 "Working closely with customer and designed custom printed gifts to provide the best customer satisfaction.",
                 "Working with different suppliers on regular bases.",
